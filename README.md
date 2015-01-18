@@ -32,9 +32,11 @@ Put the following snippet in `.repo/local_manifests/c2105.xml`
 Download the zip file with vendor binaries from:
 http://developer.sonymobile.com/knowledge-base/open-source/android-open-source-project-for-xperia-devices/
 
-In the root of your Android code tree unzip the `SW_binaries_for_Xperia_L_v1.zip`.
+In the root of your Android code tree unzip the `SW_binaries_for_Xperia_L_v1.1.zip`.
 
 You should now have a directory named `vendor/sony/c2105` in your tree.
+
+Then run the following commands to build,
 
 * `repo sync`
 * `source ./build/envsetup.sh`
